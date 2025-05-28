@@ -1,0 +1,76 @@
+:root{
+    --rojo-titulos: rgb(228, 85, 85);
+    --azul-claro :rgb(128, 193, 197);
+    --azul-inprogress :rgb(65, 150, 175);
+    --verde-completadas: rgb(65, 170, 96);
+}
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.usuario{
+    text-align: center;
+    font-style: italic;
+    .title{
+        color: var(--rojo-titulos);
+        text-shadow: 1px 1px black;
+    }
+    .div-usuario{
+        padding: 0.2rem;
+        background-color: var(--azul-claro);
+        width: 400px;
+        border-radius: 1rem;
+        margin-left: 50%;
+    }
+    p{
+        font-size: 1.5rem;
+        
+    }
+}
+.boton{
+    padding: 0.8rem;
+    background-color: var(--azul-claro);
+    margin-left: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+.kanban{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+}
+.titulo-kanban{
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--rojo-titulos);
+    text-shadow: 1px 1px black;
+}
+.pendiente{
+    text-align: center;
+    .titulo{
+        color: var(--rojo-titulos);
+        text-shadow: 1.5px 1.5px black;
+    }
+}
+.enproceso{
+    text-align: center;
+    .titulo{
+        color: var(--azul-inprogress);
+        text-shadow: 1.5px 1.5px black;
+    }
+}
+.completado{
+    text-align: center;
+    .titulo{
+        color: var(--verde-completadas);
+        text-shadow: 1.5px 1.5px black;
+    }
+}
+.tarjeta{
+    margin: 3.8rem;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--rojo-titulos);
+    color: white;
+    text-shadow: 1px 1px black;
+}

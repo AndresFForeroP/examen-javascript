@@ -1,0 +1,50 @@
+{"usuarios":[{
+    "id":1,
+    "nombre":"andres",
+    "tareas":[{
+        "titulo":"tarea prueba",
+        "descripcion":"descripcion de prueba",
+        "fechai":{
+            "dia":23,
+            "mes":11,
+            "año":2025
+        },
+        "fechaf":{
+            "dia":24,
+            "mes":11,
+            "año":2025
+        },
+        "estado":"pendiente"
+    },
+    {
+        "titulo":"tarea prueba en proceso",
+        "descripcion":"descripcion de prueba",
+        "fechai":{
+            "dia":23,
+            "mes":11,
+            "año":2025
+        },
+        "fechaf":{
+            "dia":24,
+            "mes":11,
+            "año":2025
+        },
+        "estado":"en proceso"
+    },
+    {
+        "titulo":"tarea prueba en completado",
+        "descripcion":"descripcion de prueba",
+        "fechai":{
+            "dia":23,
+            "mes":11,
+            "año":2025
+        },
+        "fechaf":{
+            "dia":24,
+            "mes":11,
+            "año":2025
+        },
+        "estado":"completada"
+    }]
+    
+}]}

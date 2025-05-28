@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/kanbanpage.js" defer></script>
+</head>
+<body>
+    <user-interface class="usuario">
+        <div class="div-usuario">
+            <h1 class="title">NOMBRE USUARIO</h1>
+            <p>Andres forero</p>
+        </div>
+    </user-interface>
+    <kanvan>
+        <div class="titulo-kanban"><h1>Kanban tareas</h1></div>
+        <button class="boton">Modificar Tarea</button>
+        <div class="kanban">
+            <div class="pendiente">
+                <h1 class="titulo">Pendiente</h1>
+                <kanban-pending>
+                </kanban-pending>    
+            </div>
+            <div class="enproceso">
+                <h1 class="titulo">En proceso</h1>
+                <kanban-inprogress>
+                </kanban-inprogress> 
+            </div>
+            <div class="completado">
+                <h1 class="titulo">Completadas</h1>
+                <kanban-completed>
+                </kanban-completed> 
+            </div>
+        </div>
+    </kanvan>    
+</body>
+</html>
